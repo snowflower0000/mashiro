@@ -12,7 +12,6 @@ header {
 }
 
 .social {
-  color: #E5E2DA;
   text-align: right;
   position: absolute;
   top: 10px;
@@ -23,6 +22,7 @@ body {
   background-color: #E5E2DA;
 }
 .social i {
+  color: #E5E2DA;
   margin-right: 20px;
   font-size: 30px;
 }
@@ -57,19 +57,47 @@ h1 {
 
 .contents {
   display: flex;
-  width: 920px;
+  width: 830px;
   margin: 50px auto;
 }
 
 .sidebar {
   width: 250px;
   margin-right: 20px;
-  
 }
+
 .profile {
   text-align: center;
   height: 200px;
   margin-bottom: 20px;
+  background-color: #839C74;
+  padding: 10px;
+  color: #E5E2DA;
+}
+
+.voice {
+  height: 640px;
+  background-color: #D0AE76;
+  padding: 10px;
+}
+
+.voice-box {
+  font-size: 16px;
+}
+
+.voice h3 {
+  text-align: center;
+  color: #6F4A2A;
+  padding-bottom: 10px;
+}
+
+.voice-box {
+  padding-bottom: 10px;
+}
+
+.voice-box p {
+  color: #6F4A2A;
+  font-size: 12px;
 }
 
 .service-box {
@@ -78,6 +106,7 @@ h1 {
   padding: 10px;
   background-color: #E4DACD;
   margin-bottom: 20px;
+  color: #6F4A2A;
 }
 
 .service-box:last-child {
@@ -95,8 +124,7 @@ h1 {
 .img2 {
   background-image: url(img/airon.jpg);
   background-size: cover;
-  background-position: center;
-  width: 290px;
+  width: 250px;
   height: 180px;
   margin-right: 20px;
 }
