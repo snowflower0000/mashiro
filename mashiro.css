@@ -30,7 +30,8 @@ body {
 .main-visual {
   background-image: url(img/shop.JPG);
   background-size: cover;
-  height: 500px;
+  height: 250px;
+  background-position: center;
   position: relative;
 }
 
@@ -39,7 +40,7 @@ h1 {
   font-family: Meiryo;
   font-size: 50px;
   position: absolute;
-  top: 150px;
+  top: 50px;
   left: 100px;
 }
 
@@ -54,8 +55,66 @@ h1 {
   letter-spacing: 0.05em;
 }
 
+.contents {
+  display: flex;
+  width: 920px;
+  margin: 50px auto;
+}
+
 .sidebar {
-  width: 400px;
+  width: 250px;
+  margin-right: 20px;
+  
+}
+.profile {
+  text-align: center;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.service-box {
+  width: 560px;
+  display: flex;
+  padding: 10px;
+  background-color: #E4DACD;
+  margin-bottom: 20px;
+}
+
+.service-box:last-child {
+  margin-bottom: 0;
+}
+
+.img1 {
+  background-image: url(img/cleaning.jpg);
+  background-size: cover;
+  width: 250px;
+  height: 180px;
+  margin-right: 20px;
+}
+
+.img2 {
+  background-image: url(img/airon.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 290px;
+  height: 180px;
+  margin-right: 20px;
+}
+
+.img3 {
+  background-image: url(img/takuhai.jpg);
+  background-size: cover;
+  width: 250px;
+  height: 180px;
+  margin-right: 20px;
+}
+
+.img4 {
+  background-image: url(img/epron.jpg);
+  background-size: cover;
+  width: 250px;
+  height: 180px;
+  margin-right: 20px;
 }
 
 
