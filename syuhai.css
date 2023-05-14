@@ -36,21 +36,32 @@ footer {
   padding-top: 10px;
 }
 
-.box {
-  width: 500px;
-  margin: 20px auto;
+main {
   color: #6F4A2A;
   font-family: Meiryo;
 }
 
-.sirokuro {
-  background-image: url("img/sirokuro.jpg");
+.box2 {
   width: 500px;
-  height: 380px;
-  background-size: cover;
+  margin: 0 auto 20px auto;
+  background-color: #E4DACD;
+  padding: 10px;
 }
 
 h2 {
-  margin: 20px 0;
   text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+.box2 a {
+  margin-bottom: 20px;
+  display: block;
+  text-align: left;
+}
+
+h4 {
+  margin: 0;
 }
