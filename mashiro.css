@@ -59,11 +59,13 @@ h1 {
   display: flex;
   width: 830px;
   margin: 50px auto;
+  font-family: Meiryo;
 }
 
 .sidebar {
   width: 250px;
   margin-right: 20px;
+  font-family: Meiryo;
 }
 
 .profile {
@@ -145,6 +147,9 @@ h1 {
   margin-right: 20px;
 }
 
+.text h4 {
+  padding-bottom: 10px;
+}
 
 
 footer {
