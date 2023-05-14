@@ -54,38 +54,12 @@ h1 {
   letter-spacing: 0.05em;
 }
 
-.img0 {
-  background-image: url(img/imag0.jpg);
-  height: 250px;
-  width: 400px;
-  background-size: auto;
-  background-position: top center;
-  margin: 20px auto;
-}
-
-.top-box p {
-  text-align: center;
-  color: #6F4A2A;
-}
-
-.top-box h3 {
-  text-align: center;
-  color: #6F4A2A;
-}
-
-.top-box {
-  margin: 20px 0;
-}
-
-.contents {
-  width: 1200px;
-  margin: 50px auto;
-  display: flex;
-  color: #6F4A2A;
-}
 .sidebar {
   width: 400px;
 }
+
+
+
 footer {
   width: 100%;
   height: 50px;
