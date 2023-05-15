@@ -93,15 +93,12 @@ h1 {
 
 .voice-box {
   font-size: 16px;
+  padding-bottom: 10px;
 }
 
 .voice h3 {
   text-align: center;
   color: #6F4A2A;
-  padding-bottom: 10px;
-}
-
-.voice-box {
   padding-bottom: 10px;
 }
 
@@ -169,6 +166,29 @@ footer {
   padding-top: 10px;
 }
 
-@media screen and (max-width: 670px) {
-  
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 25px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .main-visual-text p {
+    font-size: 16px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  .contents {
+    display: block;
+    width: 350px;
+  }
+  .service-box {
+    display: block;
+    width: 350px;
+  }
+  .sidebar {
+    width: 350px;
+    margin-right: 0;
+  }
 }
