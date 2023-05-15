@@ -168,7 +168,7 @@ footer {
 
 @media screen and (max-width: 425px) {
   h1 {
-    font-size: 25px;
+    font-size: 30px;
     position: absolute;
     top: 10px;
     left: 10px;
@@ -180,8 +180,9 @@ footer {
     right: 10px;
   }
   .contents {
-    display: block;
-    width: 350px;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100;
   }
   .service-box {
     display: block;
@@ -191,4 +192,5 @@ footer {
     width: 350px;
     margin-right: 0;
   }
+  
 }
