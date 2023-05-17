@@ -8,19 +8,18 @@
 
 h1 {
   color: #E5E2DA;
-  font-family: Meiryo;
   font-size: 50px;
   position: absolute;
   top: 50px;
-  left: 100px;
+  left: 50px;
 }
 
 .main-visual-text {
   color: #E5E2DA;
   font-size: 30px;
   position: absolute;
-  bottom: 50px;
-  right: 100px;
+  bottom: 25px;
+  right: 50px;
 }
 .main-visual-text p {
   letter-spacing: 0.05em;
@@ -36,7 +35,6 @@ h1 {
 .sidebar {
   width: 250px;
   margin-right: 20px;
-  font-family: Meiryo;
 }
 
 .profile {
@@ -55,19 +53,19 @@ h1 {
 }
 
 .voice-box {
-  font-size: 16px;
   padding-bottom: 10px;
 }
 
 .voice h3 {
-  text-align: center;
+  font-size: 16px;
   color: #6F4A2A;
+  text-align: center;
   padding-bottom: 10px;
 }
 
 .voice-box p {
-  color: #6F4A2A;
   font-size: 12px;
+  color: #6F4A2A;
 }
 
 .service-box {
@@ -83,36 +81,27 @@ h1 {
   margin-bottom: 0;
 }
 
-.img1 {
-  background-image: url(img/cleaning.jpg);
+.picture {
   background-size: cover;
   width: 250px;
   height: 180px;
   margin-right: 20px;
+}
+
+.img1 {
+  background-image: url(img/cleaning.jpg);
 }
 
 .img2 {
   background-image: url(img/airon.jpg);
-  background-size: cover;
-  width: 250px;
-  height: 180px;
-  margin-right: 20px;
 }
 
 .img3 {
   background-image: url(img/takuhai.jpg);
-  background-size: cover;
-  width: 250px;
-  height: 180px;
-  margin-right: 20px;
 }
 
 .img4 {
   background-image: url(img/epron.jpg);
-  background-size: cover;
-  width: 250px;
-  height: 180px;
-  margin-right: 20px;
 }
 
 .text h4 {
@@ -121,30 +110,42 @@ h1 {
 
 
 @media screen and (max-width: 425px) {
+  .main-visual {
+    position: relative;
+　}
+　
   h1 {
     font-size: 30px;
     position: absolute;
     top: 10px;
     left: 10px;
   }
-  .main-visual-text p {
+  
+  .main-visual-text {
     font-size: 16px;
     position: absolute;
     bottom: 10px;
     right: 10px;
   }
+  
   .contents {
     display: flex;
     flex-direction: column-reverse;
-    width: 100;
+    width: 425px;
   }
+  
   .service-box {
     display: block;
     width: 350px;
   }
+  
   .sidebar {
     width: 350px;
-    margin-right: 0;
+    margin: auto;
+  }
+  
+  .profile,.voice {
+    height: auto;
   }
   
 }
