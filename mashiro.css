@@ -115,7 +115,7 @@ h1 {
 　}
 　
   h1 {
-    font-size: 30px;
+    font-size: 25px;
     position: absolute;
     top: 10px;
     left: 10px;
@@ -136,12 +136,14 @@ h1 {
   
   .service-box {
     display: block;
-    width: 350px;
+    width: 270px;
+    margin: auto;
   }
   
   .sidebar {
-    width: 350px;
+    width: 270px;
     margin: auto;
+    margin-top: 20px;
   }
   
   .profile,.voice {
