@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, footer {
+  width: 100%;
+  height: 50px;
+  background-color: #5BA6B5;
+}
+
+.icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon > :first-child {
+  margin-right: auto;
+}
+
+.icon i {
+  font-size: 25px;
+  color: #E5E2DA;
+  margin-top: 12px;
+  margin-right: 20px;
+}
+
+.fa-house {
+  margin-left: 20px;
+}
+
+body {
+  background-color: #E5E2DA;
+  font-family: Meiryo;
+  width: 100%;
+}
+
+footer {
+  color: #E5E2DA;
+  text-align: center;
+  line-height: 50px;
+}
