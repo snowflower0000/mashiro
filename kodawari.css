@@ -2,7 +2,6 @@
   width: 500px;
   margin: 20px auto;
   color: #6F4A2A;
-  font-family: Meiryo;
 }
 
 .sirokuro {
@@ -15,4 +14,13 @@
 h2 {
   margin: 20px 0;
   text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+  .box {
+    width: 100%;
+  }
+  .sirokuro {
+    width: 250px;
+  }
 }

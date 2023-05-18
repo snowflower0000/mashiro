@@ -109,10 +109,6 @@ h1 {
 
 
 @media screen and (max-width: 425px) {
-  .main-visual {
-    position: relative;
-　}
-　
   h1 {
     font-size: 25px;
     position: absolute;
@@ -135,12 +131,10 @@ h1 {
   .service-box {
     display: block;
     width: 270px;
-    margin: auto;
   }
   
   .sidebar {
     width: 270px;
-    margin: auto;
     margin-top: 20px;
   }
   

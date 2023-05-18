@@ -18,10 +18,12 @@ h2 {
 }
 
 @media screen and (max-width: 425px) {
-  main{
+  main {
     width: 100%;
+    margin: 0 auto;
   }
   .img5 {
-    width: 250px;
+    width: 70%;
+    margin: 20px 15% 100px 15%;
   }
 }
