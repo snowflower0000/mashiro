@@ -131,7 +131,8 @@ h1 {
   .contents {
     display: flex;
     flex-direction: column-reverse;
-    width: 425px;
+    justify-content: center;
+    align-items: center;
   }
   
   .service-box {
