@@ -139,8 +139,7 @@ h1 {
   
   .sidebar {
     width: 270px;
-    margin-top: 20px;
-    margin-right: 0;
+    margin: 20px auto 20px auto;
   }
   
   .profile,.voice {
