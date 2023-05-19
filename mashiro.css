@@ -134,7 +134,7 @@ h1 {
   .service-box {
     display: block;
     width: 270px;
-    margin: 0 auto 20px ;
+    margin: 0 auto 20px auto;
   }
   
   .sidebar {
@@ -150,4 +150,7 @@ h1 {
     width: 100%;
   }
   
+  .picuture {
+    margin-right: 0;
+  }
 }
