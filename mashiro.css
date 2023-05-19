@@ -132,7 +132,8 @@ h1 {
   }
   
   .service-box {
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 270px;
   }
   
