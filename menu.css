@@ -53,6 +53,9 @@ h4 {
     width: 100%;
     display: block;
   }
+  .box0 {
+    display: none;
+  }
 }
   
   

@@ -20,7 +20,8 @@ h2 {
   .box {
     width: 100%;
   }
-  .sirokuro {
-    width: 250px;
+  .sirokuro, .text {
+    width: 80%;
+    margin: 20px 10%;
   }
 }
